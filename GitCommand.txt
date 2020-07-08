@@ -11,5 +11,29 @@ git status
 // Commit fileName
 git commit -m "Commit message"
 
-// Check log
+// Check log from users
 git log
+
+// Check difference between version
+git diff fileName
+
+// Checkout: A way to revert from local repository to working directory
+git checkout fileName
+
+// Remove modification from staging Area
+git remove --cached -r
+
+// envoi vers le Remote repository
+git push
+
+// .gitignore => used to ignore some files/ directories from GIT.
+// For example, it can be password files, or API keys, local settings,
+// user preferences, ...
+
+HEAD -> MASTER : position where we are right now
+
+Working Directory: where we are and where we Working
+Staging Area: Where files are put after a 'git add'. This area is a temporary area before sharing
+data to everyone.  When content of staging area is ok, we can commit it
+Local Repository (.git): Area where final version are stored, from where checkout gets the files for instance
+Remote Repository (GitHub): Area on the network where everything is shared with others

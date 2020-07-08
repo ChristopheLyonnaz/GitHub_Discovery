@@ -1,0 +1,4 @@
+# List of files to ignore
+# Can used special character, such as *
+ToIgnore/file1.txt
+ToIgnore/file2.txt

@@ -1,0 +1,10 @@
+// github.com
+// Identifiant: christophe.lyonnaz@gmail.com
+// Mot de passe: Clylyo76!
+
+// Create a new repository on github.com
+// Push a local project into the newly created repository
+//  origin: the name of the remote
+//  master: name of the branch to push into. Master is the main branch.
+git remote add origin https://github.com/ChristopheLyonnaz/GitHub_Discovery.git
+git push -u origin master // push local repository into remote repository. -u linked them together
