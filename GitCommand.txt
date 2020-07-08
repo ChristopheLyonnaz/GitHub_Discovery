@@ -1,0 +1,15 @@
+// GIT initialization
+git init
+
+// Add file into staging area
+git add fileName
+git add .
+
+// Show stats in staging area
+git status
+
+// Commit fileName
+git commit -m "Commit message"
+
+// Check log
+git log
