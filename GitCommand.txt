@@ -26,6 +26,9 @@ git remove --cached -r
 // envoi vers le Remote repository
 git push
 
+// Clone d'un project du Remote Repository vers un Working Directory
+git clone https://github.com/gabrielecirulli/2048.git
+
 // .gitignore => used to ignore some files/ directories from GIT.
 // For example, it can be password files, or API keys, local settings,
 // user preferences, ...
